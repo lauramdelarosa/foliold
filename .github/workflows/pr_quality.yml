@@ -3,7 +3,7 @@
 name: PR Quality
 
 on:
-  pull_request:
+  push:
     branches: [ main, 'feature/*', 'refactor/*', 'hotfix/*', 'bug/*', 'release/*' ]
 
   workflow_dispatch:
