@@ -6,7 +6,6 @@ plugins {
     id 'com.google.firebase.appdistribution'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
-    id 'kotlin-android-extensions'
     id "org.jmailen.kotlinter" version "3.9.0"
 }
 
@@ -65,7 +64,6 @@ android {
 
         production {
             dimension "distribution"
-
             firebaseAppDistribution {
                 artifactType = "AAB"
                 artifactPath = "Application/build/outputs/bundle/productionRelease/Application-production-release.aab"
@@ -75,7 +73,6 @@ android {
 
         dev {
             dimension "distribution"
-
             versionNameSuffix '-dev'
             applicationIdSuffix '.dev'
 
@@ -117,3 +114,4 @@ kotlinter {
     experimentalRules = false
     disabledRules = []
 }
+apply plugin: 'com.google.gms.google-services'
