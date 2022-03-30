@@ -1,0 +1,21 @@
+android {
+
+    signingConfigs {
+        production {
+            try {
+                storeFile file('KeyFolio.jks')
+                storePassword System.getenv("FOLIO_KEYSTORE_PASSWORD")
+                keyAlias 'folio'
+                keyPassword System.getenv("FOLIO_KEYSTORE_PASSWORD")
+            } catch (Exception e) {
+                System.out.println("Keystore not found. Local keystore is used")
+            }
+        }
+        devAndTest {
+            storeFile file('test_keystore.jks')
+            storePassword 'password'
+            keyAlias 'test_keystore_alias'
+            keyPassword 'password'
+        }
+    }
+}
