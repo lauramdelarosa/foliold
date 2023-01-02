@@ -9,17 +9,17 @@ g
 7app/src/test/java/com/delarosa/folio/ExampleUnitTest.kt,3/8/389a7ef439bf394bc2a569bed8b98081405903a2
 A
 gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
-X
-(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 L
 .idea/codeStyles/Project.xml,6/e/6ecd6000a7b6f4a2884412ff19f74193ed089648
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 H
 app/google-services.json,f/d/fd8d34b142d02ec743a8efefefd2c097961666e9
-P
- .github/workflows/pr_quality.yml,b/3/b3b3d43e2d54934aa24dd65d316fd4d2df21d141
 F
 app/proguard-rules.pro,9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9
+c
+3app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml,8/e/8e9e9feb9e0eb7cda7854787f1fbcf0c01f1cac0
+@
+app/KeyFolio.jks,f/8/f85687ed8f9cb3716efc81137ad9aba0f357e000
+T
+$app/src/debug/res/values/strings.xml,3/e/3e60c0cfd1724c5f941baae3372b5e6f4d3200b9
